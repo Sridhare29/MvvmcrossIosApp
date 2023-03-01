@@ -14,7 +14,7 @@ namespace MvvmcrossIosApp.Core
                 .AsInterfaces()
                 .RegisterAsLazySingleton();
 
-            RegisterAppStart<BasicviewModel>();
+            RegisterAppStart<Expand>();
         }
     }
 }
