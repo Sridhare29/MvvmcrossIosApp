@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="G4F-8l-baF">
+    <device id="retina6_72" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--TryViewController-->
+        <scene sceneID="Ha2-LV-gTD">
+            <objects>
+                <viewController title="TryViewController" id="G4F-8l-baF" customClass="TryViewController" customModule="MvvmcrossIosApp_iOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="yeR-bF-QBJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="hbt-gr-n54"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="HiD-H8-sPT">
+                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8FJ-R6-tj1">
+                                <rect key="frame" x="174" y="167" width="83" height="40"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="33"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="hbt-gr-n54" firstAttribute="top" secondItem="8FJ-R6-tj1" secondAttribute="bottom" constant="691" id="Db0-uA-4I4"/>
+                            <constraint firstItem="8FJ-R6-tj1" firstAttribute="leading" secondItem="HiD-H8-sPT" secondAttribute="leadingMargin" constant="154" id="HSl-6l-Nzj"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="8FJ-R6-tj1" secondAttribute="trailing" constant="153" id="bSe-as-w2Y"/>
+                            <constraint firstItem="8FJ-R6-tj1" firstAttribute="top" secondItem="yeR-bF-QBJ" secondAttribute="bottom" constant="108" id="qLG-Y4-6Dv"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ILS-B2-fZZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="172" y="-99"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

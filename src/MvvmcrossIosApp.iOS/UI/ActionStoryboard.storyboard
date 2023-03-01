@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
-    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <device id="retina6_72" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
@@ -17,31 +17,40 @@
                         <viewControllerLayoutGuide type="bottom" id="HN8-48-XAP"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="COk-sD-Dh5">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Margin Evaluation" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ksM-Ie-jtI">
-                                <rect key="frame" x="36" y="89" width="217" height="32"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Q8A-co-o2q">
+                                <rect key="frame" x="40" y="133" width="346" height="128"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <label key="tableFooterView" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total Billings" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="pH2-hU-HX6">
+                                    <rect key="frame" x="0.0" y="0.0" width="346" height="44"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="16"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Margin Evaluation" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ksM-Ie-jtI">
+                                <rect key="frame" x="40" y="69" width="235" height="31.333333333333329"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="26"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="3BI-7s-a7k">
-                                <rect key="frame" x="0.0" y="183" width="393" height="266"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                            </tableView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="ksM-Ie-jtI" firstAttribute="leading" secondItem="COk-sD-Dh5" secondAttribute="leadingMargin" constant="20" id="Ff5-0T-449"/>
-                            <constraint firstItem="ksM-Ie-jtI" firstAttribute="top" secondItem="v78-ag-BOB" secondAttribute="bottom" constant="30" id="VQs-T5-LMo"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Q8A-co-o2q" secondAttribute="trailing" constant="20" id="Oav-7J-7Hl"/>
+                            <constraint firstItem="ksM-Ie-jtI" firstAttribute="top" secondItem="v78-ag-BOB" secondAttribute="bottom" constant="10" id="cMJ-6R-8LN"/>
+                            <constraint firstItem="Q8A-co-o2q" firstAttribute="top" secondItem="ksM-Ie-jtI" secondAttribute="bottom" constant="32" id="qOi-kW-Sz9"/>
+                            <constraint firstItem="ksM-Ie-jtI" firstAttribute="leading" secondItem="COk-sD-Dh5" secondAttribute="leadingMargin" constant="20" id="vwk-0r-rw2"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ksM-Ie-jtI" secondAttribute="trailing" constant="135" id="zTf-zj-edM"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SL4-Mi-51B" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-29.770992366412212" y="-626.05633802816908"/>
+            <point key="canvasLocation" x="-30.697674418604652" y="-626.39484978540781"/>
         </scene>
     </scenes>
     <resources>

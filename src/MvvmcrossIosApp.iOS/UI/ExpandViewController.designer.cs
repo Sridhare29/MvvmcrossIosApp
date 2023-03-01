@@ -12,9 +12,15 @@ namespace MvvmcrossIosApp.iOS.UI
 	[Register ("ExpandViewController")]
 	partial class ExpandViewController
 	{
+		[Outlet]
+		UIKit.UITableView Tableviewlabel { get; set; }
 		
 		void ReleaseDesignerOutlets ()
 		{
+			if (Tableviewlabel != null) {
+				Tableviewlabel.Dispose ();
+				Tableviewlabel = null;
+			}
 		}
 	}
 }

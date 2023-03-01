@@ -156,6 +156,8 @@
     <Compile Include="UI\ActionViewController.designer.cs">
       <DependentUpon>ActionViewController.cs</DependentUpon>
     </Compile>
+    <InterfaceDefinition Include="UI\TryStoryboard.storyboard" />
+    <Compile Include="UI\TryViewController.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />

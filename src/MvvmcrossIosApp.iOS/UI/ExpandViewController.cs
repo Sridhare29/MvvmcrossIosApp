@@ -7,7 +7,7 @@ namespace MvvmcrossIosApp.iOS.UI
 {
     public partial class ExpandViewController : MvxViewController<Expand>
     {
-        public ExpandViewController () : base ("ExpandViewController", null)
+        public ExpandViewController () 
         {
         }
 

@@ -1,21 +1,20 @@
 using System;
 using MvvmCross.Platforms.Ios.Views;
-using MvvmcrossIosApp.Core.ViewModels.Main;
+using MvvmcrossIosApp.Core.ViewModels;
 using UIKit;
 
 namespace MvvmcrossIosApp.iOS.UI
 {
-    public partial class ActionViewController : MvxViewController<BasicviewModel>
+    public partial class TryViewController : MvxViewController<TryModel>
     {
-        //public ActionViewController () : base ("ActionViewController", null)
-        //{
-       // }
+        public TryViewController () 
+        {
+        }
 
         public override void ViewDidLoad ()
-        {   
+        {
             base.ViewDidLoad ();
             // Perform any additional setup after loading the view, typically from a nib.
-
         }
 
         public override void DidReceiveMemoryWarning ()
