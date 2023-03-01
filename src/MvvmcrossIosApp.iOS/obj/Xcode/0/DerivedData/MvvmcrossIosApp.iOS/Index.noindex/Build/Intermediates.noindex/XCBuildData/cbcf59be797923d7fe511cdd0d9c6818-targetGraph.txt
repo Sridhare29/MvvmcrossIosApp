@@ -1,0 +1,3 @@
+Target dependency graph (2 targets)
+MvvmcrossIosApp.iOS in MvvmcrossIosApp.iOS, no dependencies
+MvvmcrossIosApp.iOS in MvvmcrossIosApp.iOS, no dependencies

@@ -1,0 +1,9 @@
+/Users/sridharelumalai/Projects/BlankApp/MvvmcrossIosApp/src/MvvmcrossIosApp.Core/bin/Debug/netstandard2.0/MvvmcrossIosApp.Core.deps.json
+/Users/sridharelumalai/Projects/BlankApp/MvvmcrossIosApp/src/MvvmcrossIosApp.Core/bin/Debug/netstandard2.0/MvvmcrossIosApp.Core.dll
+/Users/sridharelumalai/Projects/BlankApp/MvvmcrossIosApp/src/MvvmcrossIosApp.Core/bin/Debug/netstandard2.0/MvvmcrossIosApp.Core.pdb
+/Users/sridharelumalai/Projects/BlankApp/MvvmcrossIosApp/src/MvvmcrossIosApp.Core/obj/Debug/netstandard2.0/MvvmcrossIosApp.Core.csproj.AssemblyReference.cache
+/Users/sridharelumalai/Projects/BlankApp/MvvmcrossIosApp/src/MvvmcrossIosApp.Core/obj/Debug/netstandard2.0/MvvmcrossIosApp.Core.AssemblyInfoInputs.cache
+/Users/sridharelumalai/Projects/BlankApp/MvvmcrossIosApp/src/MvvmcrossIosApp.Core/obj/Debug/netstandard2.0/MvvmcrossIosApp.Core.AssemblyInfo.cs
+/Users/sridharelumalai/Projects/BlankApp/MvvmcrossIosApp/src/MvvmcrossIosApp.Core/obj/Debug/netstandard2.0/MvvmcrossIosApp.Core.csproj.CoreCompileInputs.cache
+/Users/sridharelumalai/Projects/BlankApp/MvvmcrossIosApp/src/MvvmcrossIosApp.Core/obj/Debug/netstandard2.0/MvvmcrossIosApp.Core.dll
+/Users/sridharelumalai/Projects/BlankApp/MvvmcrossIosApp/src/MvvmcrossIosApp.Core/obj/Debug/netstandard2.0/MvvmcrossIosApp.Core.pdb

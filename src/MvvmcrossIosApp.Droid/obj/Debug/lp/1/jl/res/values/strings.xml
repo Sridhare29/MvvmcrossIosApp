@@ -1,0 +1,1 @@
+<resources><string name="fab_scroll_shrink_grow_autohide_behavior">mvvmcross.droidx.material.behaviors.MvxScrollAwareGrowShrinkFABBehavior</string><string name="view_scroll_translation_autohide_behavior">mvvmcross.droidx.material.behaviors.MvxScrollAwareTranslationAutoHideBehavior</string></resources>

@@ -1,0 +1,138 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/sridharelumalai/Projects/BlankApp/MvvmcrossIosApp/src/MvvmcrossIosApp.iOS/MvvmcrossIosApp.iOS.csproj": {}
+  },
+  "projects": {
+    "/Users/sridharelumalai/Projects/BlankApp/MvvmcrossIosApp/src/MvvmcrossIosApp.Core/MvvmcrossIosApp.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/sridharelumalai/Projects/BlankApp/MvvmcrossIosApp/src/MvvmcrossIosApp.Core/MvvmcrossIosApp.Core.csproj",
+        "projectName": "MvvmcrossIosApp.Core",
+        "projectPath": "/Users/sridharelumalai/Projects/BlankApp/MvvmcrossIosApp/src/MvvmcrossIosApp.Core/MvvmcrossIosApp.Core.csproj",
+        "packagesPath": "/Users/sridharelumalai/.nuget/packages/",
+        "outputPath": "/Users/sridharelumalai/Projects/BlankApp/MvvmcrossIosApp/src/MvvmcrossIosApp.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/sridharelumalai/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "MvvmCross": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/Users/sridharelumalai/Library/Caches/VisualStudio/17.0/MSBuild/437_3/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/sridharelumalai/Projects/BlankApp/MvvmcrossIosApp/src/MvvmcrossIosApp.iOS/MvvmcrossIosApp.iOS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/sridharelumalai/Projects/BlankApp/MvvmcrossIosApp/src/MvvmcrossIosApp.iOS/MvvmcrossIosApp.iOS.csproj",
+        "projectName": "MvvmcrossIosApp.iOS",
+        "projectPath": "/Users/sridharelumalai/Projects/BlankApp/MvvmcrossIosApp/src/MvvmcrossIosApp.iOS/MvvmcrossIosApp.iOS.csproj",
+        "packagesPath": "/Users/sridharelumalai/.nuget/packages/",
+        "outputPath": "/Users/sridharelumalai/Projects/BlankApp/MvvmcrossIosApp/src/MvvmcrossIosApp.iOS/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/Users/sridharelumalai/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "xamarinios10"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "xamarinios10": {
+            "projectReferences": {
+              "/Users/sridharelumalai/Projects/BlankApp/MvvmcrossIosApp/src/MvvmcrossIosApp.Core/MvvmcrossIosApp.Core.csproj": {
+                "projectPath": "/Users/sridharelumalai/Projects/BlankApp/MvvmcrossIosApp/src/MvvmcrossIosApp.Core/MvvmcrossIosApp.Core.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "xamarinios10": {
+          "dependencies": {
+            "Cirrious.FluentLayout": {
+              "target": "Package",
+              "version": "[2.9.0, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "MvvmCross": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Serilog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Serilog.Sinks.Xamarin": {
+              "target": "Package",
+              "version": "[0.2.0.64, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
