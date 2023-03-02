@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vvC-RU-0Fa">
+    <device id="retina6_72" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--SampleViewController-->
+        <scene sceneID="3z7-NH-E93">
+            <objects>
+                <viewController storyboardIdentifier="SampleViewController" title="SampleViewController" id="vvC-RU-0Fa" customClass="SampleViewController" customModule="MvvmcrossIosApp_iOS" customModuleProvider="target" propertyAccessControl="none" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="D2Y-ya-yaE"/>
+                        <viewControllerLayoutGuide type="bottom" id="37P-Hn-cpO"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="pIl-a4-ekx">
+                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="28 Febuary 2023" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QcD-UW-ixA">
+                                <rect key="frame" x="102" y="268" width="226" height="78"/>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="29"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="QcD-UW-ixA" secondAttribute="trailing" constant="82" id="PpW-vc-ytJ"/>
+                            <constraint firstItem="QcD-UW-ixA" firstAttribute="top" secondItem="D2Y-ya-yaE" secondAttribute="bottom" constant="209" id="W36-eL-w5z"/>
+                            <constraint firstItem="QcD-UW-ixA" firstAttribute="leading" secondItem="pIl-a4-ekx" secondAttribute="leadingMargin" constant="82" id="YDW-lo-Tqr"/>
+                            <constraint firstItem="37P-Hn-cpO" firstAttribute="top" secondItem="QcD-UW-ixA" secondAttribute="bottom" constant="552" id="ieA-YI-Prm"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="datemodel" destination="QcD-UW-ixA" id="Qxg-nH-mpU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jmm-uc-rfq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="9.7674418604651159" y="-34.763948497854081"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -9,4 +9,6 @@
 
 @implementation ExpandViewController
 
+@synthesize Tableviewlabel = _Tableviewlabel;
+
 @end

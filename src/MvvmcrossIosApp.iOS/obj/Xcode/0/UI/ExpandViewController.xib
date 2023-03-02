@@ -10,7 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ExpandViewController">
             <connections>
-                <outlet property="Tabeltext" destination="HFt-AE-USv" id="sTO-Um-iQU"/>
+                <outlet property="Tableviewlabel" destination="BxD-QA-iEu" id="hwP-I4-Kai"/>
                 <outlet property="view" destination="2" id="RRd-Eg-VrN"/>
             </connections>
         </placeholder>
@@ -21,103 +21,56 @@
             <subviews>
                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ooO-ij-56g">
                     <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CqC-Ku-huV">
+                            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Margin Evaluation" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1rh-ni-Nib">
+                                    <rect key="frame" x="20" y="70" width="335" height="24"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="335" id="9lY-lK-uGc"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total Billings" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6bz-xk-wcq">
+                                    <rect key="frame" x="20" y="110" width="79.333333333333329" height="17"/>
+                                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$ 149,471" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nar-ax-Rev">
+                                    <rect key="frame" x="281" y="106" width="79.666666666666686" height="24"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="24" id="wuc-EP-0qR"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <tableView clipsSubviews="YES" contentMode="scaleToFill" semanticContentAttribute="spatial" ambiguous="YES" alwaysBounceVertical="YES" style="plain" sectionIndexMinimumDisplayRowCount="1" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" estimatedSectionHeaderHeight="-1" sectionFooterHeight="28" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="BxD-QA-iEu">
+                                    <rect key="frame" x="20" y="210" width="353" height="169"/>
+                                </tableView>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="1rh-ni-Nib" secondAttribute="trailing" constant="20" id="1Mo-RZ-bkp"/>
+                                <constraint firstItem="nar-ax-Rev" firstAttribute="top" secondItem="1rh-ni-Nib" secondAttribute="bottom" constant="12" id="3dR-2Y-Meo"/>
+                                <constraint firstAttribute="trailing" secondItem="BxD-QA-iEu" secondAttribute="trailing" constant="20" id="Grw-dU-wY0"/>
+                                <constraint firstItem="BxD-QA-iEu" firstAttribute="top" secondItem="nar-ax-Rev" secondAttribute="bottom" constant="80" id="HeZ-hE-SBa"/>
+                                <constraint firstItem="1rh-ni-Nib" firstAttribute="leading" secondItem="CqC-Ku-huV" secondAttribute="leading" constant="20" id="Hr3-yb-pzi"/>
+                                <constraint firstItem="1rh-ni-Nib" firstAttribute="top" secondItem="CqC-Ku-huV" secondAttribute="top" constant="70" id="KI6-aq-0m9"/>
+                                <constraint firstItem="6bz-xk-wcq" firstAttribute="top" secondItem="1rh-ni-Nib" secondAttribute="bottom" constant="16" id="NvZ-ql-igH"/>
+                                <constraint firstItem="6bz-xk-wcq" firstAttribute="top" secondItem="1rh-ni-Nib" secondAttribute="bottom" constant="16" id="aGe-Fc-0xS"/>
+                                <constraint firstItem="6bz-xk-wcq" firstAttribute="leading" secondItem="CqC-Ku-huV" secondAttribute="leading" constant="20" id="gR8-Zm-R3K"/>
+                                <constraint firstItem="nar-ax-Rev" firstAttribute="top" secondItem="1rh-ni-Nib" secondAttribute="bottom" constant="12" id="i4A-vd-BCV"/>
+                                <constraint firstItem="BxD-QA-iEu" firstAttribute="leading" secondItem="CqC-Ku-huV" secondAttribute="leading" constant="20" id="pxt-jh-ZPW"/>
+                                <constraint firstItem="nar-ax-Rev" firstAttribute="leading" secondItem="6bz-xk-wcq" secondAttribute="trailing" constant="181.66999999999999" id="sKv-wR-IHv"/>
+                            </constraints>
+                        </view>
+                    </subviews>
                 </stackView>
-                <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CqC-Ku-huV">
-                    <rect key="frame" x="0.0" y="0.0" width="393" height="865"/>
-                    <subviews>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Margin Evaluation" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1rh-ni-Nib">
-                            <rect key="frame" x="20" y="70" width="335" height="24"/>
-                            <constraints>
-                                <constraint firstAttribute="width" constant="335" id="9lY-lK-uGc"/>
-                            </constraints>
-                            <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
-                            <nil key="textColor"/>
-                            <nil key="highlightedColor"/>
-                        </label>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total Billings" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6bz-xk-wcq">
-                            <rect key="frame" x="20" y="110" width="79.333333333333329" height="17"/>
-                            <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
-                            <nil key="textColor"/>
-                            <nil key="highlightedColor"/>
-                        </label>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$ 149,471" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nar-ax-Rev">
-                            <rect key="frame" x="281" y="106" width="79.666666666666686" height="24"/>
-                            <constraints>
-                                <constraint firstAttribute="height" constant="24" id="wuc-EP-0qR"/>
-                            </constraints>
-                            <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                            <nil key="textColor"/>
-                            <nil key="highlightedColor"/>
-                        </label>
-                        <tableView clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="HFt-AE-USv">
-                            <rect key="frame" x="0.0" y="197" width="375" height="235"/>
-                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        </tableView>
-                    </subviews>
-                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    <constraints>
-                        <constraint firstAttribute="trailing" secondItem="1rh-ni-Nib" secondAttribute="trailing" constant="20" id="1Mo-RZ-bkp"/>
-                        <constraint firstItem="nar-ax-Rev" firstAttribute="top" secondItem="1rh-ni-Nib" secondAttribute="bottom" constant="12" id="3dR-2Y-Meo"/>
-                        <constraint firstItem="1rh-ni-Nib" firstAttribute="leading" secondItem="CqC-Ku-huV" secondAttribute="leading" constant="20" id="Hr3-yb-pzi"/>
-                        <constraint firstItem="1rh-ni-Nib" firstAttribute="top" secondItem="CqC-Ku-huV" secondAttribute="top" constant="70" id="KI6-aq-0m9"/>
-                        <constraint firstItem="6bz-xk-wcq" firstAttribute="top" secondItem="1rh-ni-Nib" secondAttribute="bottom" constant="16" id="NvZ-ql-igH"/>
-                        <constraint firstItem="HFt-AE-USv" firstAttribute="leading" secondItem="CqC-Ku-huV" secondAttribute="leading" id="VLK-DE-IuB"/>
-                        <constraint firstItem="HFt-AE-USv" firstAttribute="top" secondItem="nar-ax-Rev" secondAttribute="bottom" constant="67" id="Y3T-9D-BSG"/>
-                        <constraint firstItem="6bz-xk-wcq" firstAttribute="top" secondItem="1rh-ni-Nib" secondAttribute="bottom" constant="16" id="aGe-Fc-0xS"/>
-                        <constraint firstItem="6bz-xk-wcq" firstAttribute="leading" secondItem="CqC-Ku-huV" secondAttribute="leading" constant="20" id="gR8-Zm-R3K"/>
-                        <constraint firstItem="nar-ax-Rev" firstAttribute="top" secondItem="1rh-ni-Nib" secondAttribute="bottom" constant="12" id="i4A-vd-BCV"/>
-                        <constraint firstItem="nar-ax-Rev" firstAttribute="leading" secondItem="6bz-xk-wcq" secondAttribute="trailing" constant="181.66999999999999" id="sKv-wR-IHv"/>
-                        <constraint firstAttribute="trailing" secondItem="HFt-AE-USv" secondAttribute="trailing" id="zHi-BS-GSW"/>
-                    </constraints>
-                </view>
-                <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hjU-Xh-RaM">
-                    <rect key="frame" x="10" y="10" width="393" height="865"/>
-                    <subviews>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Margin Evaluation" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ChQ-dR-9HE">
-                            <rect key="frame" x="20" y="70" width="335" height="24"/>
-                            <constraints>
-                                <constraint firstAttribute="width" constant="335" id="7Kb-8E-dhS"/>
-                            </constraints>
-                            <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
-                            <nil key="textColor"/>
-                            <nil key="highlightedColor"/>
-                        </label>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total Billings" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iYt-v6-gSM">
-                            <rect key="frame" x="20" y="110" width="79.333333333333329" height="17"/>
-                            <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
-                            <nil key="textColor"/>
-                            <nil key="highlightedColor"/>
-                        </label>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$ 149,471" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4iM-nT-96r">
-                            <rect key="frame" x="281" y="106" width="79.666666666666686" height="24"/>
-                            <constraints>
-                                <constraint firstAttribute="height" constant="24" id="18w-7P-aPj"/>
-                            </constraints>
-                            <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                            <nil key="textColor"/>
-                            <nil key="highlightedColor"/>
-                        </label>
-                        <tableView clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="3x9-7w-vQP">
-                            <rect key="frame" x="0.0" y="197" width="375" height="235"/>
-                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        </tableView>
-                    </subviews>
-                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    <constraints>
-                        <constraint firstItem="iYt-v6-gSM" firstAttribute="top" secondItem="ChQ-dR-9HE" secondAttribute="bottom" constant="16" id="2fi-HM-pKJ"/>
-                        <constraint firstItem="4iM-nT-96r" firstAttribute="top" secondItem="ChQ-dR-9HE" secondAttribute="bottom" constant="12" id="3cH-GW-OVq"/>
-                        <constraint firstItem="4iM-nT-96r" firstAttribute="top" secondItem="ChQ-dR-9HE" secondAttribute="bottom" constant="12" id="6cn-8K-NXS"/>
-                        <constraint firstItem="iYt-v6-gSM" firstAttribute="leading" secondItem="hjU-Xh-RaM" secondAttribute="leading" constant="20" id="N8b-jh-xW5"/>
-                        <constraint firstItem="4iM-nT-96r" firstAttribute="leading" secondItem="iYt-v6-gSM" secondAttribute="trailing" constant="181.66999999999999" id="QEN-VY-2kk"/>
-                        <constraint firstItem="3x9-7w-vQP" firstAttribute="leading" secondItem="hjU-Xh-RaM" secondAttribute="leading" id="SFs-d3-EB0"/>
-                        <constraint firstAttribute="trailing" secondItem="3x9-7w-vQP" secondAttribute="trailing" id="WQ0-kA-LeK"/>
-                        <constraint firstAttribute="trailing" secondItem="ChQ-dR-9HE" secondAttribute="trailing" constant="20" id="aQB-Y5-K6e"/>
-                        <constraint firstItem="ChQ-dR-9HE" firstAttribute="leading" secondItem="hjU-Xh-RaM" secondAttribute="leading" constant="20" id="bHj-xx-qhd"/>
-                        <constraint firstItem="ChQ-dR-9HE" firstAttribute="top" secondItem="hjU-Xh-RaM" secondAttribute="top" constant="70" id="kbu-ca-obI"/>
-                        <constraint firstItem="3x9-7w-vQP" firstAttribute="top" secondItem="4iM-nT-96r" secondAttribute="bottom" constant="67" id="xNs-Ni-v1T"/>
-                        <constraint firstItem="iYt-v6-gSM" firstAttribute="top" secondItem="ChQ-dR-9HE" secondAttribute="bottom" constant="16" id="y4x-2N-flU"/>
-                    </constraints>
-                </view>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>

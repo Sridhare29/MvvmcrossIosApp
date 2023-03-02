@@ -15,6 +15,7 @@
 	--abi=x86_64 \
 	--symbollist=/Users/sridharelumalai/Projects/BlankApp/MvvmcrossIosApp/src/MvvmcrossIosApp.iOS/obj/iPhoneSimulator/Debug/mtouch-symbols.list \
 	--dsym=no \
+	--reference=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/MonoTouch.Dialog-1.dll \
 	--reference=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll \
 	--reference=/Users/sridharelumalai/Projects/BlankApp/MvvmcrossIosApp/src/MvvmcrossIosApp.Core/bin/Debug/netstandard2.0/MvvmcrossIosApp.Core.dll \
 	--reference=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/OpenTK-1.0.dll \

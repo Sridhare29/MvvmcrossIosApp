@@ -9,7 +9,7 @@
 #import <MvvmCross/MvvmCross.h>
 
 
-@interface ActionViewController : UITableViewController {
+@interface ActionViewController : UIViewController {
 }
 
 @end

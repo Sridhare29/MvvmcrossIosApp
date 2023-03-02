@@ -7,9 +7,13 @@
 
 #import <Foundation/Foundation.h>
 #import <MvvmCross/MvvmCross.h>
+#import <UIKit/UIKit.h>
 
 
 @interface ExpandViewController : UIViewController {
+	UITableView *_Tableviewlabel;
 }
+
+@property (nonatomic, retain) IBOutlet UITableView *Tableviewlabel;
 
 @end

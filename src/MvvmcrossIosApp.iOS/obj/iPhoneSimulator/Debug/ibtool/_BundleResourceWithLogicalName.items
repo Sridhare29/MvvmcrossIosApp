@@ -1,6 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/ibtool/ChartViewController.nib">
+      <Optimize>false</Optimize>
+      <LogicalName>ChartViewController.nib</LogicalName>
+    </_BundleResourceWithLogicalName>
     <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/ibtool/TestViewController.nib">
       <Optimize>false</Optimize>
       <LogicalName>TestViewController.nib</LogicalName>
@@ -9,10 +13,44 @@
       <Optimize>false</Optimize>
       <LogicalName>ExpandViewController.nib</LogicalName>
     </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/ibtool/MyTableViewCell.nib">
+      <Optimize>false</Optimize>
+      <LogicalName>MyTableViewCell.nib</LogicalName>
+    </_BundleResourceWithLogicalName>
     <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/ibtool-link/ActionStoryboard.storyboardc/Info.plist">
       <Optimize>false</Optimize>
       <LogicalName>ActionStoryboard.storyboardc/Info.plist</LogicalName>
       <OriginalItemSpec>obj/iPhoneSimulator/Debug/ibtool-link/ActionStoryboard.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/ibtool-link/SampleStoryboard.storyboardc/SampleViewController.nib">
+      <Optimize>false</Optimize>
+      <LogicalName>SampleStoryboard.storyboardc/SampleViewController.nib</LogicalName>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/ibtool-link/SampleStoryboard.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/ibtool-link/SampleStoryboard.storyboardc/vvC-RU-0Fa-view-pIl-a4-ekx.nib">
+      <Optimize>false</Optimize>
+      <LogicalName>SampleStoryboard.storyboardc/vvC-RU-0Fa-view-pIl-a4-ekx.nib</LogicalName>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/ibtool-link/SampleStoryboard.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/ibtool-link/SampleStoryboard.storyboardc/Info.plist">
+      <Optimize>false</Optimize>
+      <LogicalName>SampleStoryboard.storyboardc/Info.plist</LogicalName>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/ibtool-link/SampleStoryboard.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/ibtool-link/TryStoryboard.storyboardc/UIViewController-G4F-8l-baF.nib">
+      <Optimize>false</Optimize>
+      <LogicalName>TryStoryboard.storyboardc/UIViewController-G4F-8l-baF.nib</LogicalName>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/ibtool-link/TryStoryboard.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/ibtool-link/TryStoryboard.storyboardc/G4F-8l-baF-view-HiD-H8-sPT.nib">
+      <Optimize>false</Optimize>
+      <LogicalName>TryStoryboard.storyboardc/G4F-8l-baF-view-HiD-H8-sPT.nib</LogicalName>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/ibtool-link/TryStoryboard.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/ibtool-link/TryStoryboard.storyboardc/Info.plist">
+      <Optimize>false</Optimize>
+      <LogicalName>TryStoryboard.storyboardc/Info.plist</LogicalName>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/ibtool-link/TryStoryboard.storyboardc</OriginalItemSpec>
     </_BundleResourceWithLogicalName>
     <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/ibtool-link/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib">
       <Optimize>false</Optimize>
