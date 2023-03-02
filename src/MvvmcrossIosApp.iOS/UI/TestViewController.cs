@@ -14,7 +14,7 @@ namespace MvvmcrossIosApp.iOS.UI
         public override void ViewDidLoad ()
         {
             base.ViewDidLoad ();
-            datestext.Text = DateTime.Now.ToString("dd MMMM yyyy").ToUpper();
+            //datestext.Text = DateTime.Now.ToString("dd MMMM yyyy").ToUpper();
         }
 
         public override void DidReceiveMemoryWarning ()

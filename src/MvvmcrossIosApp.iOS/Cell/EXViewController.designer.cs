@@ -9,26 +9,12 @@ using System.CodeDom.Compiler;
 
 namespace MvvmcrossIosApp.iOS.Cell
 {
-	[Register ("MyTableViewCell")]
-	partial class MyTableViewCell
+	[Register ("EXViewController")]
+	partial class EXViewController
 	{
-		[Outlet]
-		UIKit.UILabel subtittletext { get; set; }
-
-		[Outlet]
-		UIKit.UILabel tittletext { get; set; }
 		
 		void ReleaseDesignerOutlets ()
 		{
-			if (tittletext != null) {
-				tittletext.Dispose ();
-				tittletext = null;
-			}
-
-			if (subtittletext != null) {
-				subtittletext.Dispose ();
-				subtittletext = null;
-			}
 		}
 	}
 }

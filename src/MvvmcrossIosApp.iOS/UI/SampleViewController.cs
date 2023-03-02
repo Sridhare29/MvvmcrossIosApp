@@ -5,7 +5,7 @@ using UIKit;
 
 namespace MvvmcrossIosApp.iOS.UI
 {
-    public partial class SampleViewController : MvxViewController<Sampleviewmodel>
+    public partial class SampleViewController : MvxViewController<EmptyClass>
     {
         public SampleViewController () : base ("SampleViewController", null)
         {
