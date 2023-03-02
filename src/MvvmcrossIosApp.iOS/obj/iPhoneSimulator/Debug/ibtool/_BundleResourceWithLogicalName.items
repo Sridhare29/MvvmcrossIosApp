@@ -1,6 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/ibtool/EXViewController.nib">
+      <Optimize>false</Optimize>
+      <LogicalName>EXViewController.nib</LogicalName>
+    </_BundleResourceWithLogicalName>
     <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/ibtool/ChartViewController.nib">
       <Optimize>false</Optimize>
       <LogicalName>ChartViewController.nib</LogicalName>
@@ -12,10 +16,6 @@
     <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/ibtool/ExpandViewController.nib">
       <Optimize>false</Optimize>
       <LogicalName>ExpandViewController.nib</LogicalName>
-    </_BundleResourceWithLogicalName>
-    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/ibtool/MyTableViewCell.nib">
-      <Optimize>false</Optimize>
-      <LogicalName>MyTableViewCell.nib</LogicalName>
     </_BundleResourceWithLogicalName>
     <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/ibtool-link/ActionStoryboard.storyboardc/Info.plist">
       <Optimize>false</Optimize>
