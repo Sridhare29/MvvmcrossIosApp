@@ -173,6 +173,11 @@
     <Compile Include="Cell\EXViewController.designer.cs">
       <DependentUpon>EXViewController.cs</DependentUpon>
     </Compile>
+    <InterfaceDefinition Include="Cell\DelTableViewCell.xib" />
+    <Compile Include="Cell\DelTableViewCell.cs" />
+    <Compile Include="Cell\DelTableViewCell.designer.cs">
+      <DependentUpon>DelTableViewCell.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
