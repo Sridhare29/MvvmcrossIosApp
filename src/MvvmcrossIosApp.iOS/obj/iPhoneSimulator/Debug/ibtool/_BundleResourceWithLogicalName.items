@@ -9,6 +9,10 @@
       <Optimize>false</Optimize>
       <LogicalName>ChartViewController.nib</LogicalName>
     </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/ibtool/DelTableViewCell.nib">
+      <Optimize>false</Optimize>
+      <LogicalName>DelTableViewCell.nib</LogicalName>
+    </_BundleResourceWithLogicalName>
     <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/ibtool/TestViewController.nib">
       <Optimize>false</Optimize>
       <LogicalName>TestViewController.nib</LogicalName>
