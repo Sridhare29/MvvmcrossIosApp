@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="EhT-KP-SNj">
     <device id="retina6_72" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
@@ -8,10 +8,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--ActionViewController-->
+        <!--Actions View Controller-->
         <scene sceneID="ptp-g2-PKg">
             <objects>
-                <viewController title="ActionViewController" id="EhT-KP-SNj" customClass="ActionViewController" customModule="MvvmcrossIosApp_iOS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="EhT-KP-SNj" customClass="ActionsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="v78-ag-BOB"/>
                         <viewControllerLayoutGuide type="bottom" id="HN8-48-XAP"/>

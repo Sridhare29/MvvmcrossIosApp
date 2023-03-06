@@ -7,22 +7,6 @@
 	<key>com.apple.ibtool.document.notices</key>
 	<dict/>
 	<key>com.apple.ibtool.document.warnings</key>
-	<dict>
-		<key>EhT-KP-SNj</key>
-		<array>
-			<dict>
-				<key>affected-objects</key>
-				<array>
-					<string>EhT-KP-SNj</string>
-				</array>
-				<key>message</key>
-				<string>“ActionViewController“ is unreachable because it has no entry points, and no identifier for runtime access via -[UIStoryboard instantiateViewControllerWithIdentifier:].</string>
-				<key>type</key>
-				<string>IBIssueTypeUnsupportedConfiguration</string>
-				<key>type-value</key>
-				<integer>9</integer>
-			</dict>
-		</array>
-	</dict>
+	<dict/>
 </dict>
 </plist>

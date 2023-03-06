@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="ZKD-dj-qza">
+    <device id="retina6_72" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Okviewcontroller-->
+        <scene sceneID="mSs-f4-gUi">
+            <objects>
+                <viewController id="ZKD-dj-qza" customClass="Okviewcontroller" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="yXw-H0-1q0"/>
+                        <viewControllerLayoutGuide type="bottom" id="Slr-RT-lxJ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="QvH-R4-nLl">
+                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gD2-52-doy">
+                                <rect key="frame" x="184" y="331" width="63" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Slr-RT-lxJ" firstAttribute="top" secondItem="gD2-52-doy" secondAttribute="bottom" constant="533" id="9Tx-kr-rCY"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="gD2-52-doy" secondAttribute="trailing" constant="163" id="Uaa-YE-C86"/>
+                            <constraint firstItem="gD2-52-doy" firstAttribute="top" secondItem="yXw-H0-1q0" secondAttribute="bottom" constant="272" id="hgf-o4-XDO"/>
+                            <constraint firstItem="gD2-52-doy" firstAttribute="leading" secondItem="QvH-R4-nLl" secondAttribute="leadingMargin" constant="164" id="m15-aq-LH8"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Pkg-ov-57N" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-280" y="91"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

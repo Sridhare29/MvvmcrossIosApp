@@ -21,9 +21,19 @@
       <Optimize>false</Optimize>
       <LogicalName>ExpandViewController.nib</LogicalName>
     </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/ibtool-link/ActionStoryboard.storyboardc/EhT-KP-SNj-view-COk-sD-Dh5.nib">
+      <Optimize>false</Optimize>
+      <LogicalName>ActionStoryboard.storyboardc/EhT-KP-SNj-view-COk-sD-Dh5.nib</LogicalName>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/ibtool-link/ActionStoryboard.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
     <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/ibtool-link/ActionStoryboard.storyboardc/Info.plist">
       <Optimize>false</Optimize>
       <LogicalName>ActionStoryboard.storyboardc/Info.plist</LogicalName>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/ibtool-link/ActionStoryboard.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/ibtool-link/ActionStoryboard.storyboardc/UIViewController-EhT-KP-SNj.nib">
+      <Optimize>false</Optimize>
+      <LogicalName>ActionStoryboard.storyboardc/UIViewController-EhT-KP-SNj.nib</LogicalName>
       <OriginalItemSpec>obj/iPhoneSimulator/Debug/ibtool-link/ActionStoryboard.storyboardc</OriginalItemSpec>
     </_BundleResourceWithLogicalName>
     <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/ibtool-link/SampleStoryboard.storyboardc/SampleViewController.nib">
@@ -70,6 +80,21 @@
       <Optimize>false</Optimize>
       <LogicalName>LaunchScreen.storyboardc/Info.plist</LogicalName>
       <OriginalItemSpec>obj/iPhoneSimulator/Debug/ibtool-link/LaunchScreen.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/ibtool-link/OkStoryboard.storyboardc/ZKD-dj-qza-view-QvH-R4-nLl.nib">
+      <Optimize>false</Optimize>
+      <LogicalName>OkStoryboard.storyboardc/ZKD-dj-qza-view-QvH-R4-nLl.nib</LogicalName>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/ibtool-link/OkStoryboard.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/ibtool-link/OkStoryboard.storyboardc/UIViewController-ZKD-dj-qza.nib">
+      <Optimize>false</Optimize>
+      <LogicalName>OkStoryboard.storyboardc/UIViewController-ZKD-dj-qza.nib</LogicalName>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/ibtool-link/OkStoryboard.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/ibtool-link/OkStoryboard.storyboardc/Info.plist">
+      <Optimize>false</Optimize>
+      <LogicalName>OkStoryboard.storyboardc/Info.plist</LogicalName>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/ibtool-link/OkStoryboard.storyboardc</OriginalItemSpec>
     </_BundleResourceWithLogicalName>
   </ItemGroup>
 </Project>

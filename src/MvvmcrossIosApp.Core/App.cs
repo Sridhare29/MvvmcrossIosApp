@@ -15,6 +15,8 @@ namespace MvvmcrossIosApp.Core
                 .RegisterAsLazySingleton();
 
             RegisterAppStart<Sampleviewmodel>();
+            //RegisterAppStart<ActionViewModel>(); for okvc action board
+
         }
     }
 }

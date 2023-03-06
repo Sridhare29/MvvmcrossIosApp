@@ -152,10 +152,6 @@
       <DependentUpon>ExpandViewController.cs</DependentUpon>
     </Compile>
     <InterfaceDefinition Include="UI\ActionStoryboard.storyboard" />
-    <Compile Include="UI\ActionViewController.cs" />
-    <Compile Include="UI\ActionViewController.designer.cs">
-      <DependentUpon>ActionViewController.cs</DependentUpon>
-    </Compile>
     <InterfaceDefinition Include="UI\TryStoryboard.storyboard" />
     <Compile Include="UI\TryViewController.cs" />
     <InterfaceDefinition Include="UI\SampleStoryboard.storyboard" />
@@ -177,6 +173,11 @@
     <Compile Include="Cell\DelTableViewCell.cs" />
     <Compile Include="Cell\DelTableViewCell.designer.cs">
       <DependentUpon>DelTableViewCell.cs</DependentUpon>
+    </Compile>
+    <InterfaceDefinition Include="UI\OkStoryboard.storyboard" />
+    <Compile Include="UI\Okviewcontroller.cs" />
+    <Compile Include="UI\Okviewcontroller.designer.cs">
+      <DependentUpon>Okviewcontroller.cs</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
